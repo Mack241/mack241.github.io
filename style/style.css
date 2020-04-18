@@ -1,0 +1,172 @@
+body{
+    position: relative;
+}
+.chart{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.jumbotron.jumbotron-fluid{
+    background-image: url(https://thelukehotel.co.ke/wp-content/uploads/2019/06/lukeback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    margin-left: 25px;
+}
+#jumbo{
+    margin-bottom: 0rem;
+}
+#block-one-png{
+    float: right;
+}
+.news-update{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.input-group{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#helpline-search{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-size: 50px;
+}
+#infection-rate{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #f7c2b7;
+    border-radius: 25px;
+    padding: 20px 20px 20px 20px;
+    margin-left: 0px;
+}
+.background-news-update{
+    background-color: #c0f78f;
+    border-radius: 25px;
+    padding: 20px 20px 30px 20px;
+}
+.helpline-background{
+    background-color: #edf288;
+    border-radius: 25px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 50px;
+}
+
+#prevention-image{
+    margin-left: 110px;
+}
+#info-container{
+    background-color: #b4f2fa;
+    border-radius: 25px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 40px;
+}
+#nav-bar{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+    overflow: hidden;
+    z-index: 1;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: 30px;
+}
+.content{
+    padding: 16px;
+}
+.sticky + .content {
+    padding-top: 102px;
+  }
+  footer{
+      position: absolute;
+      background-image: url(https://thelukehotel.co.ke/wp-content/uploads/2019/06/lukeback.jpg);
+      padding: 40px 40px 40px 40px;
+      width: 100%;
+      margin-top: 40px;
+      -webkit-box-shadow: 0 -8px 6px -6px black;
+      -moz-box-shadow: 0 -8px 6px -6px black;
+       box-shadow: 0 8px -6px -6px black;
+       background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #click-panel{
+     background-color: #bcdef5;
+     border-radius: 25px;
+     padding: 10px 10px 10px 10px;
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 50px;
+     margin-top: 40px;
+     
+  }
+  #panel{
+      display: none;
+      background-color: #fcfcfa;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      padding: 20px 20px 20px 20px;
+      margin-bottom: 30px;
+  }
+  .headlines{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bold;
+      font-style: 40px;
+  }
+  .info{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      margin-bottom: 20px;
+  }
+  #pointer-change{
+      cursor: pointer;
+  }
+ .myth-image{
+    max-width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+ }
+ #main-container{
+     margin-top: 30px;
+ }
+ .carousel-item{
+     height: 350px;
+ }
+ /* .carousel-item img{
+     position: absolute;
+     top: 0;
+     left: 0;
+     min-height: 300px;
+ } */
+#button-addon2{
+    z-index: 0;
+}
+:host(.rssapp-feed-card-container){
+ z-index: 0;
+}
+.image_fit{
+    max-width: 100%;
+    object-fit: cover;
+}
+ .carousel-image{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    vertical-align: -webkit-baseline-middle;
+} 
+#info{
+    color: #e34a0e;
+    font-size: 20px;
+}

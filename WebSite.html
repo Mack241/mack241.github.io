@@ -1,0 +1,156 @@
+<!DOCTYPE html lang="en">
+<html>
+ <head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+     <title>COVID-19 Information</title>
+     <link rel = "stylesheet" href = "C:\Users\LAPPY\Desktop\Corona Website\style\style.css">
+     <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js"></script>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     <script src = "C:\Users\LAPPY\Desktop\Corona Website\script\script.js" defer></script>     
+     <link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </style>
+</head>
+<body>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="container">
+      <h1 class="display-4">COVID-19 Information</h1>
+      <p class="lead"><h3>#STAYHOME #STAYSAFE</h3></p>    
+      </div>
+      <div class="carousel-item active">
+        <img  src="https://pngimg.com/uploads/coronavirus/coronavirus_PNG47.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img class = "carousel-image" src="https://pngimage.net/wp-content/uploads/2018/06/medical-png-images-3.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img class = "carousel-image" src = "https://png.pngtree.com/png-vector/20200325/ourmid/pngtree-stop-corona-virus-earth-crying-illustration-png-image_2164867.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+    <nav class="nav nav-pills flex-column flex-sm-row bg-white" data-spy = "affix" id = "nav-bar">
+      <a class="flex-sm-fill text-sm-center nav-link " href="#helpline"><b>HelplIne Search</b></a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="#scroll-infection"><b>Infection Rate</b></a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="#scroll-news-update"><b>News Update</b></a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="#info-container"><b>More Information</b></a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="#click-panel"><b>Myth Busters</b></a>
+    </nav>
+        <div class = "container" >
+          <div class = "row">
+              <div class = "col"></div>
+                <div class = "col-10">
+                    <div class = "background-news-update" id = "scroll-news-update">
+                      <h2 class = "news-update" id = "news-update-id">News Update</h2>
+                        <div class = "feed" id = "main-container">
+                          <rssapp-list id="36MqC1ceDMsLVc0x"></rssapp-list><script src="https://widget.rss.app/v1/list.js" type="text/javascript" async></script>
+                        </div>
+                    </div>
+                    <p id = "helpline">
+                      <div class = "helpline-background">
+                        <h2 id = "helpline-search">Helpline Number Search</h2>
+                        <div class="input-group mb-3">
+                          <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+                          <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+                          </div>
+                        </div>
+                      </div>
+                   </p>
+              </div>
+              <div class = "col"></div>
+          </div>
+      </div> 
+         <div id = "scroll-infection">
+            <h2 id = "infection-rate">Infection Rate</h2>
+            <div class = "chart">
+              <iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map&year=2020-04-14" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+            </div>
+         </div>
+         <div class="container" id = "info-container">
+            <div class="row justify-content-start">
+              <div class="col-4">
+                <img class = "image_fit" src = "C:\Users\LAPPY\Desktop\Corona Website\resources\symptoms.png">
+               
+              </div>
+            </div>
+            <div class = "row justify-content-end">
+              <div class="col-5">
+                <h3 id = "info"><b>HOW IT SPREADS</b></h3>
+                <img class = "image_fit" src = "C:\Users\LAPPY\Desktop\Corona Website\resources\block-one.png">
+              </div>
+            </div>
+              <div class = "row justify-content-start">
+                <div class="col-4">
+                  <h3 id = "info"><b>PREVETION</b></h3>
+                  <img class = "image_fit" src = "C:\Users\LAPPY\Desktop\Corona Website\resources\preventions.png">
+                </div>
+                
+              </div>
+        </div>
+        <div id = "click-panel"><b>Myth Busters</b><br>
+          <img id = "pointer-change" src="https://img.icons8.com/color/48/000000/double-down.png"/>
+        </div>
+         <div class = "container">
+           <div class = "row">
+             <div class = "col"></div>
+             <div class = "col-10">
+              <div id = "panel" class = "panel-info">
+                <div class = "headlines"><h3>5G mobile networks DO NOT spread COVID-19</h3></div>
+                <div class = "info">Viruses cannot travel on radio waves/mobile networks.COVID-19 is spreading in many countries that do not have 5G mobile networks.
+   
+                 COVID-19 is spread through respiratoatry droplets when an infected person coughs, sneezes or speaks. People can also be infected by touching a contaminated surface and then their eyes, mouth or nose. </div>
+                 <div>
+                   <img class = "myth-image" src = "C:\Users\LAPPY\Desktop\Corona Website\resources\download_1.png">
+                  </div>
+                 <div class = "headlines"><h3>Exposing yourself to the sun or to temperatures higher than 25C degrees DOES NOT prevent the coronavirus disease (COVID-19)</h3></div>
+                 <div class = "info">You can catch COVID-19, no matter how sunny or hot the weather is. Countries with hot weather have reported cases of COVID-19. To protect yourself, make sure you clean your hands frequently and thoroughly and avoid touching your eyes, mouth, and nose. </div>
+                 <!-- <div class = "myth-image"><img src = "C:\Users\LAPPY\Desktop\download_2.png"></div> -->
+                 <div class = "headlines"><h3>You can recover from the coronavirus disease (COVID-19). Catching the new coronavirus DOES NOT mean you will have it for life.</h3></div>
+                 <div class = "info">Most of the people who catch COVID-19 can recover and eliminate the virus from their bodies. If you catch the disease, make sure you treat your symptoms. If you have cough, fever, and difficulty breathing, seek medical care early – but call your health facility by telephone first. Most patients recover thanks to supportive care.</div>
+                 <!-- <div class = "myth-image"><img src = "C:\Users\LAPPY\Desktop\download_3.jpg"></div> -->
+                 <div class = "headlines"><h3>Drinking alcohol does not protect you against COVID-19 and can be dangerous</h3></div>
+                 <div class = "info">Frequent or excessive alcohol consumption can increase your risk of health problems. </div>
+                 <!-- <div class = "myth-image"><img src="C:\Users\LAPPY\Desktop\download_4.jpg"></div> -->
+                 <div class = "headlines"><h3>COVID-19 virus can be transmitted in areas with hot and humid climates</h3></div> 
+                 <div class = "info">From the evidence so far, the COVID-19 virus can be transmitted in ALL AREAS, including areas with hot and humid weather. Regardless of climate, adopt protective measures if you live in, or travel to an area reporting COVID-19. The best way to protect yourself against COVID-19 is by frequently cleaning your hands. By doing this you eliminate viruses that may be on your hands and avoid infection that could occur by then touching your eyes, mouth, and nose.</div>
+                 <div>
+                   <img class = "myth-image" src = "C:\Users\LAPPY\Desktop\Corona Website\resources\download_5.png">
+                  </div>
+                 <div class = "headlines"><h3>Taking a hot bath does not prevent the new coronavirus disease</h3></div>
+                 <div class = "info">Taking a hot bath will not prevent you from catching COVID-19. Your normal body temperature remains around 36.5°C to 37°C, regardless of the temperature of your bath or shower. Actually, taking a hot bath with extremely hot water can be harmful, as it can burn you. The best way to protect yourself against COVID-19 is by frequently cleaning your hands. By doing this you eliminate viruses that may be on your hands and avoid infection that could occur by then touching your eyes, mouth, and nose.</div>
+                 <div >
+                   <img class = "myth-image" src = "C:\Users\LAPPY\Desktop\Corona Website\resources\download_6.png">
+                  </div>
+                 <div class="headlines"><h3>The new coronavirus CANNOT be transmitted through mosquito bites.</h3></div>
+                 <div class = "info">To date there has been no information nor evidence to suggest that the new coronavirus could be transmitted by mosquitoes. The new coronavirus is a respiratory virus which spreads primarily through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose. To protect yourself, clean your hands frequently with an alcohol-based hand rub or wash them with soap and water. Also, avoid close contact with anyone who is coughing and sneezing.</div>
+                 <div>
+                   <img class = "myth-image" src = "C:\Users\LAPPY\Desktop\Corona Website\resources\download_7.png">
+                  </div>
+               </div>
+             </div>
+             <div class = "col"></div>
+           </div>
+         </div>
+        <footer><a href = "#"><b>Home</b></a></footer>
+        
+</body>
+</html>
+
+
